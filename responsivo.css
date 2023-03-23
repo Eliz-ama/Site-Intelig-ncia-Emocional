@@ -1,0 +1,11 @@
+@media (min-width: 280px) and (max-width: 1024px) {
+    .conteudo-lista {
+        display: flex;
+        flex-direction: column;
+        row-gap: 1.25em;
+    }
+
+    .conteudo {
+        column-count: unset;
+    }
+}
